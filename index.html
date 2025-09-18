@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universal Clothing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+  <aside class="menu">
+    <div class="logo">
+      <h2>UNIVERSAL</h2>
+      <p>CLOTHING</p>
+    </div>
+   <nav>
+  <ul>
+     <li><a href="index.html">Inicio</a></li>
+        <li><a href="gorras.html">Gorras</a></li>
+        <li><a href="camisetas.html">Camisetas</a></li>
+        <li><a href="zapatos.html">Zapatos</a></li>
+        <li><a href="buzos.html">buzos</a></li>
+        <li><a href="conjuntos.html">conjuntos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="register.html" class="activo">Registrarse</a></li>
+  </ul>
+</nav>
+
+    <div class="footer-menu">
+      <a href="#login" onclick="document.getElementById('menu-toggle').checked=false;">Iniciar sesión</a>
+      <div class="social">
+        <a href="#">📷</a>
+        <a href="#">🎵</a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <h1>Bienvenido a Universal Clothing</h1>
+
+    <div class="grid">
+
+      <div class="card" id="gorras">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKaYfMeLjexyNKOL3yjBJPngml3xWI7Kim0w&s" alt="Gorras">
+        <p>Gorras multimarca</p>
+      </div>
+
+      <div class="card" id="camisetas">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_646919-MCO84211568295_042025-O.webp" alt="Camisetas">
+        <p>Camisetas</p>
+      </div>
+
+      <div class="card" id="zapatos">
+        <img src="https://i.pinimg.com/236x/61/07/05/6107052e76d4eaf6385297f3f8dbc428.jpg" alt="Zapatos">
+        <p>Zapatos</p>
+      </div>
+
+      <div class="card" id="buzos">
+        <img src="https://imagesa1.lacoste.com/dw/image/v2/BCWL_PRD/on/demandware.static/-/Sites-master/default/dwa4756367/SH0801_166_24.jpg?imwidth=320&impolicy=pctp&imdensity=1" alt="Buzos">
+        <p>Buzos</p>
+      </div>
+
+      <div class="card" id="conjuntos">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgrand-qBmheBiex___3xtlwlsxVO1hEyHIA&s" alt="Conjuntos">
+        <p>Conjuntos</p>
+      </div>
+
+    </div>
+
+    <footer class="contacto" id="contacto">
+      <p><strong>Contacto:</strong></p>
+      <p>cra 75 #83-25, Robledo, Medellín</p>
+      <p>📱 +57 3208702756</p>
+      <p>📧 contacto@universal.com</p>
+      <p>🕒 Lunes - Sábado de 11:20 am a 9:00 pm</p>
+    </footer>
+
+    
+
+  </main>
+
+</body>
+</html>
